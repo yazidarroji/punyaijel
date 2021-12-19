@@ -1,0 +1,22 @@
+<input
+      type="email"
+      name="email"
+      id="inputEmail"
+      placeholder="Email"
+      required
+    />
+    <input
+      type="password"
+      name="password"
+      placeholder="Password"
+      required
+    />
+
+
+    <form>
+    <label for="inputName">Name</label>
+    <input type="text" name="name" id="inputName" placeholder="name">
+    <label for="inputReview">Review</label>
+    <textarea name="review" id="inputReview" placeholder="your review" aria-label="input your review"></textarea>
+    <button type="submit" class="submit" aria-label="send this review">Send</button>
+  </form>

@@ -1,0 +1,162 @@
+@media screen and (max-width: 900px) {
+    .sidebar {
+        width: 70px;
+        z-index: 150;
+    }
+
+    .sidebar .sidebar-header .navbar-brand,
+    .sidebar .sidebar-menu li span:last-child{
+        display: none;
+    }
+
+    .sidebar .sidebar-header
+    {
+        padding-left: 8px;
+    }
+
+    .sidebar .sidebar-menu ul li a{
+        padding-left: 9px;
+    }
+
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+    .main,
+    footer {
+        margin-left: 70px;
+    }
+
+    .user{
+        margin-right: 1rem ;
+    }
+
+    .sidebar-menu ul{
+        padding: 6px;
+    }
+
+    .sidebar-menu span{
+        margin-right: 0;
+    }
+
+    #sidebar-toggle:checked ~ .sidebar {
+        width: 160px;
+    }
+
+    #sidebar-toggle:checked ~ .sidebar .sidebar-header .navbar-brand,
+    #sidebar-toggle:checked ~ .sidebar .sidebar-menu li span:last-child{
+        display: inline;
+    }
+
+    #sidebar-toggle:checked ~ .sidebar .sidebar-menu ul li a{
+        padding-left: 6px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 25px;
+    }
+
+    .table-title h3{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .sidebar-menu span:last-child{
+        font-size: 12px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    .home-title{
+        padding: 1rem;
+    }
+    
+    .wrapper{
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
+        padding: 1rem;
+    }
+    
+    .main-content {
+        padding: 0;
+    }
+    
+    #containerChart {
+        margin: 30px 0;
+    }
+
+    .table-title h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .sidebar {
+        width: 55px;
+    }
+
+    .sidebar .sidebar-menu ul li a{
+        padding-left: 10px;
+    }
+
+    .sidebar .sidebar-header{
+        padding-left: 0px;
+    }
+
+    .sidebar .sidebar-menu ul li{
+        padding-left: 10px;
+    }
+
+    .sidebar .sidebar-menu ul{
+        padding: 0px;
+    }
+
+    #sidebar-toggle:checked ~ .sidebar {
+        width: 150px;
+    }
+
+    #sidebar-toggle:checked ~ .sidebar .sidebar-header .navbar-brand,
+    #sidebar-toggle:checked ~ .sidebar .sidebar-menu li span:last-child{
+        display: inline;
+    }
+
+    #sidebar-toggle:checked ~ .sidebar .sidebar-menu ul li a{
+        padding-left: 0px;
+    }
+
+    #sidebar-toggle:checked ~ .main,
+    #sidebar-toggle:checked ~ footer {
+        margin-left: 55px;
+    }
+
+    #sidebar-toggle:checked ~ .main navigation-bar{
+        left: 55px;
+    }
+
+    .main,
+    footer {
+        margin-left: 55px;
+    }
+
+    .form-input input::placeholder{
+        font-size: 12px;
+    }
+    
+    .card-body h5{
+        font-size: 15px;
+    }
+
+    .card-body h4{
+        font-size: 16px;
+    }
+
+    .table-title h3{
+        font-size: 18px;
+    }
+}

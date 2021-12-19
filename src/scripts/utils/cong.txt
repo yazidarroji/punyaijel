@@ -1,0 +1,2 @@
+  LOGIN: `${CONFIG.BASE_URL}/login`,
+  BASE_URL: 'http://localhost:8000/api',
